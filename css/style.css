@@ -1,0 +1,267 @@
+/* ===============================
+   CONFIGURAÇÕES GERAIS
+=================================*/
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #F7F9FC;
+    color: #2D2D2D;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Remove sombras e bordas padrão */
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ===============================
+   CORES PADRÃO
+=================================*/
+.color-primary {
+    color: #1A4D8F;
+}
+
+.btn-yellow {
+    background: #F2C94C;
+    color: #1A1A1A;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-yellow:hover {
+    background: #e0b73e;
+}
+
+.btn-white {
+    background: #fff;
+    border: 2px solid #1A4D8F;
+    color: #1A4D8F;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background: #1A4D8F;
+    color: #fff;
+}
+
+/* ===============================
+   HEADER & MENU
+=================================*/
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand img {
+    max-height: 60px;
+}
+
+.nav-link {
+    color: #1A4D8F !important;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #F2C94C !important;
+}
+
+.header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #D9DCE1;
+}
+
+/* ===============================
+   BANNER
+=================================*/
+
+.banner {
+    padding: 80px 0;
+    background: linear-gradient(to right, #ffffff, #eef3fa);
+}
+
+.text-banner h1 {
+    font-size: 42px;
+    color: #1A4D8F;
+}
+
+.text-banner p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.img-banner img {
+    width: 100%;
+    max-width: 380px;
+}
+
+.card-case {
+    background: #FFFFFF;
+    padding: 20px;
+    border-left: 4px solid #1A4D8F;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.container-mensagens{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+}
+
+/* ===============================
+   SEÇÕES GERAIS
+=================================*/
+
+section {
+    padding: 70px 0;
+}
+
+.hint-title {
+    color: #1A4D8F;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 32px;
+    color: #1A4D8F;
+}
+
+/* ===============================
+   SOBRE / SERVIÇOS
+=================================*/
+
+.servicos {
+    background: #fff;
+	
+}
+
+.card-icon img {
+    margin-bottom: 15px;
+}
+
+.card-text p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A4D8F;
+}
+
+.card-text span {
+    display: block;
+    color: #555;
+	
+
+}
+
+/* ===============================
+   MINISTÉRIOS
+=================================*/
+
+.missao {
+    background: #eef3fa;
+}
+
+.missao  h4 {
+    font-size: 22px;
+    color: #1A4D8F;
+    margin-top: 20px;
+}
+
+.missao  p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* ===============================
+   CULTOS
+=================================*/
+
+.card-secondary {
+    background: #fff;
+	background-color:#f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    border-left: 6px solid #1A4D8F;
+}
+
+.card-secondary p {
+    font-size: 17px;
+}
+
+/* ===============================
+   TESTEMUNHOS
+=================================*/
+
+.depoimentos {
+    background: #fff6db;
+}
+
+.depoimentos p {
+    font-size: 16px;
+}
+
+.depoimentos .title {
+    color: #1A4D8F;
+}
+
+/* ===============================
+   CONTATO
+=================================*/
+
+.reserva {
+    background: #fff;
+}
+
+#contato .card-secondary {
+    border-left: 6px solid #F2C94C;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+
+footer {
+    background: #1A4D8F;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* ===============================
+   RESPONSIVIDADE
+=================================*/
+
+@media (max-width: 768px) {
+    .text-banner h1 {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+}
