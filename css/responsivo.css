@@ -73,9 +73,17 @@
         font-size: 30px;
     }
 
-    .servicos{
+     .servicos{
         padding-bottom: 50px;
-    }
+	    width: 100%;
+    max-width: 100%;	
+	 }
+	 
+	 .servicos video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
     .cardapio{
         padding-bottom: 50px;
